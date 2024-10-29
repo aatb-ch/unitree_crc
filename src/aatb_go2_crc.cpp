@@ -1,5 +1,5 @@
 // AATB / Thibault Brevet
-// compute CRC32 for Go2 motor commands
+// compute CRC with CRC-CCITT for Go2 motor commands
 
 #include <unistd.h>
 #include <stdio.h>
