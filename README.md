@@ -30,4 +30,4 @@ make
 
 5. run either `./aatb_go1_crc` or `./aatb_go2_crc` or `./aatb_g1_crc` from the `/build` folder.
 
-Hats off to https://github.com/imcnanie for the Go1 motor dumps, Go2 motor dumps by yours truly.
+Hats off to [imcnanie](https://github.com/imcnanie) for the Go1 motor dumps, Go2 dumps by yours truly, G1 dumps by [rghilduta](https://github.com/rghilduta).
