@@ -14,7 +14,6 @@ target_link_libraries(aatb_go1_crc ${EXTRA_LIBS})
 
 add_executable(aatb_go2_crc example/aatb_go2_crc.cpp)
 target_link_libraries(aatb_go2_crc ${EXTRA_LIBS})
-<<<<<<< HEAD
 
 add_executable(aatb_g1_crc example/aatb_g1_crc.cpp)
 target_link_libraries(aatb_g1_crc ${EXTRA_LIBS})
