@@ -4,7 +4,7 @@ Based off captured frames on the rs-485 bus of Go1/Go2/G1 motors.
 
 1. [clone unitree_actuator_sdk ](https://github.com/unitreerobotics/unitree_actuator_sdk.git)
 
-2. Copy both .cpp files from the `/src` folder into the sdk `/example` folder
+2. Copy .cpp files from the `/src` folder into the sdk `/example` folder
 
 3. add to the CMakeList.txt:
 
