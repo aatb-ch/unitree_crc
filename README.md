@@ -1,4 +1,4 @@
-# Unitree CRC for Go1/Go2 motors
+# Unitree CRC for Go1/Go2/G1 motors
 
 Based off captured frames on the rs-485 bus of Go1/Go2/G1 motors.
 
