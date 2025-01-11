@@ -1,5 +1,5 @@
 // AATB / Thibault Brevet
-// compute CRC32 for Go2 motor commands
+// compute CRC with CRC-CCITT for Go2 motor commands
 
 #include <unistd.h>
 #include <stdio.h>
@@ -26,7 +26,7 @@ int main() {
   uint8_t* data = cmd.get_motor_send_data();
 
   // print it out, this wont work on Go2 motors,
-  only on the standalone actuator sold for $$$$
+  // only on the standalone actuator sold for $$$$
   for (int i=0; i<17; i++){
     std::cout << std::endl;
     printf("%02x ", data[i]);

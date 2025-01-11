@@ -1,5 +1,5 @@
 // AATB / Thibault Brevet
-// compute CRC32 for Go1 motor commands
+// compute CRC with CRC32 for Go1 motor commands
 
 #include <unistd.h>
 #include <stdio.h>
@@ -30,7 +30,7 @@ int main() {
     s[11] = 0x42;
     s[12] = 0x10; // target tau ?
     s[13] = 0x00;
-    s[14] = 0xFF; //0x7fff
+    s[14] = 0xFF; // 0x7fff
     s[15] = 0x7F;
     s[16] = 0x80; // 0x7fe95c80 normally at 0x10
     s[17] = 0x5C; // 
@@ -63,7 +63,6 @@ int main() {
     SetMotor_cmd[cmdStartAddr + 0x16] = (short)(int)((fVar12 / (fVar11 * fVar11)) * 100.0 * 1024.0);
     SetMotor_cmd[cmdStartAddr + 0x18] = bVar1
     SetMotor_cmd[cmdStartAddr + 0x1e] = uVar5 // computed CRC
-
     */
 
     printf("Go1 payload is: ");
